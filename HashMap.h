@@ -9,4 +9,9 @@ private:
         
         Cell(KeyType k, ValueType v) : key(k), value(v), link(nullptr) {}
     };
+    Cell** buckets;
+    int nBuckets;
+    int size;
+
+
 }
